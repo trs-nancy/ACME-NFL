@@ -1,0 +1,7 @@
+name: 'ACME Sports NFL Team Data'
+type: module
+description: 'Custom Views integration for ACME NFL team data'
+core: 8.x
+dependencies:
+  - views_custom_cache_tag
+package: 'Resulta'

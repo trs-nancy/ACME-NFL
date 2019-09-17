@@ -1,0 +1,5 @@
+acme_sports_nfl.api_config_form:
+  title: 'ACME NFL API'
+  description: 'API settings form for ACME NFL'
+  parent: system.admin_config_services
+  route_name: 'acme_sports_nfl.api_config_form'

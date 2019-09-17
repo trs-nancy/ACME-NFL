@@ -1,0 +1,9 @@
+acme_sports_nfl.api_config_form:
+  path: 'admin/config/services/nfl-api-config'
+  defaults:
+    _form: '\Drupal\acme_sports_nfl\Form\AcmeNflApiConfigForm'
+    _title: 'ACME NFL API Config Form'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE

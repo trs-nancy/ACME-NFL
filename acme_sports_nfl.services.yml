@@ -1,0 +1,4 @@
+services:
+  acme_sports_nfl.data_service:
+    class: Drupal\acme_sports_nfl\DataService
+    arguments: []

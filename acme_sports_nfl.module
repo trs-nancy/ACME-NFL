@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains acme_sports_nfl.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function acme_sports_nfl_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the acme_sports_nfl module.
+    case 'help.page.acme_sports_nfl':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Custom Views integration for ACME NFL team data') . '</p>';
+      return $output;
+
+    default:
+  }
+}
